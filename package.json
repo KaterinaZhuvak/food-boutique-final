@@ -2,12 +2,12 @@
   "name": "food-boutique",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://katerinazhuvak.github.io/Food-Boutique/",
+  "homepage": ".",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /greenshop/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git"

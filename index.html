@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="ru"><head><script type="importmap">{"imports":{"7Iv91":"/basket-img.940fe2aa.png","hjyUk":"/cart-green.5bdee940.svg"}}</script><script type="module" src="/cart.2bb2401d.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;family=Inter:wght@100..900&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/cart.cfd4eeb7.css">
+
+  </head><body>
+    <header class="header">
+ <div class="header_container">   
+    <img class="header_logo" src="/Link.9a3c5623.svg" alt="logo">
+    <div class="header_btn-container">
+        <button class="header_btn"> <a href="/index.html">Home</a></button>
+        <div class="header_wrapper">
+            <button class="header_cart-btn">
+            <a href="/cart.html">
+                <img src="/cart.1f309a91.svg" alt="cart"> 
+            </a>
+           
+            </button>
+        <p class="header_cart-p">Cart<span class="basket_span">(0)</span></p></div>
+    </div></div>
+</header>
+    <section class="intro">
+  <div class="container">
+    <div class="intro__box">
+      <h2 class="intro__title">
+        Welcome to the <span class="intro__highlight">Food</span> Boutique!
+      </h2>
+      <h2 class="intro__subtitle">
+        With Food Boutique, you're not just subscribing to food, you're
+        <br>
+        signing up for a fresher, fitter, and happier you.
+      </h2>
+      <div class="intro__spinnerbox">
+        <img class="intro__spinner" src="/spinner.231a43c2.svg" alt="spinner">
+      </div>
+      <picture class="intro__baner">
+        <source media="(max-width: 768px)" srcset="/tabletIntro1x.02625daa.png 1x, /tabletIntro2x.22bd4244.png 2x">
+
+        <source media="(max-width: 375px)" srcset="/mobileIntro1x.4434290f.png, /mobileIntro2x.87fa307d.png">
+
+        <img class="intro__img" width="1440" height="603" loading="lazy" alt="baner" src="/intro1x.bccea59d.png" srcset="/intro2x.687b207f.png 2x">
+      </picture>
+    </div>
+  </div>
+</section>
+ 
+    <section class="filter">
+  <div class="filter__container container">
+    <h2 class="filter__title">Filters:</h2>
+    <div class="filter__search_box">
+      <form class="filter__search_form">
+        <div class="filter__search_space">
+          <input type="text" class="filter__search_input" placeholder="Search for anything">
+          <button type="submit" class="filter__search_button">
+            <img src="/search-icon.086b9e72.svg" alt="search">
+          </button>
+        </div>
+      </form>
+      <div class="filter__sort_box">
+        <select name="sort" class="filter__sort">
+          <option value="show-all">Show all</option>
+          <option value="beverages">Beverages</option>
+          <option value="bakary">Breads &amp; Bakery</option>
+          <option value="dairy">Dairy</option>
+          <option value="deli">Deli</option>
+          <option value="eggs">Eggs</option>
+          <option value="fresh ">Fresh Produce</option>
+          <option value="frozen">Frozen Foods</option>
+        </select>
+      </div>
+      <div class="filter__filter_box">
+        <select name="categories" class="filter__catigories">
+          <option value="byABC_Asc">A to Z</option>
+          <option value="byABC_Desc">Z to A</option>
+          <option value="byPrice_Asc">Cheap</option>
+          <option value="byPrice_Desc">Expensive</option>
+          <option value="byPopularity_Asc">Not popular</option>
+          <option value="byPopularity_Desc">Popular</option>
+          <option value="showAll">Show all</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+<section class="cards">
+    <div class="container">
+
+        <!-- <div class="cards__cardContainer" id="js-cardContainer"></div> -->
+        <div class="cards__block">
+            <div class="cards__wrapper">
+                <ul class="cards__list" id="js-cardList"></ul>
+    
+                <div class="cards__paginationBtns">
+    
+                    <div class="cards__btnGroup">
+                        <button class="cards__paginationBtns__btn" id="js-leftDblBtn">
+                            <i class="fa-solid fa-angles-left"></i>
+                        </button>
+        
+                        <button class="cards__paginationBtns__btn" id="js-leftBtn">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                    </div>
+    
+        
+                    <ul class="cards__btnsBlock" id="js-btnsBlock"></ul>
+    
+    
+                    <div class="cards__btnGroup">
+                        <button class="cards__paginationBtns__btn" id="js-rightBtn">
+                            <i class="fa-solid fa-chevron-right"></i>
+                                
+                        </button>
+                        <button class="cards__paginationBtns__btn" id="js-rightDblBtn">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+    
+           <div class="cards__asideBlock">
+                <!-- popular-->
+            
+                <div class="cards__popular">
+                    <h2 class="cards__popular__title">Popular products</h2>
+                    <ul class="cards__popular__list" id="js-popularList">
+                    </ul>
+                </div>
+
+                <div class="cards__discount">
+                    <h2 class="cards__popular__title">Discount products</h2>
+                    <ul class="cards__discount__list" id="js-discountList"></ul>
+                </div>
+
+
+
+          </div> 
+
+        </div>
+
+
+
+    </div>
+</section>
+    <section class="cardsModal"> 
+    <div class="cardsModal__overlay" id="js-backdrop">
+        <div class="cardsModal__block" id="js-modalBlock">
+
+        </div>
+
+    </div>
+</section>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__left">
+      <div class="footer__logo">
+        <span>
+          <img class="footer__logo_svg" src="/logo.e285f770.svg" alt="logo">
+        </span>
+        <img class="footer__logo_text" src="/logo-text.40d2f309.svg" alt="food botiq">
+      </div>
+      <ul class="footer__list">
+        <li class="footer__links">
+          <a class="footer__link" href="#">
+            <img src="/facebook.fd158e08.svg" alt="facebook">
+          </a>
+        </li>
+        <li class="footer__links_item">
+          <a class="footer__link" href="#">
+            <img src="/instagram.b2a35be4.svg" alt="instagram"></a>
+        </li>
+        <li class="footer__links_item">
+          <a class="footer__link" href="#">
+            <img src="/youtube.8fd025a5.svg" alt="youtube"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__info">
+      <div class="footer__center">
+        <div class="footer__center_title">
+          <h2 class="footer__title">
+            Discover the Variety of Flavors and Quality
+          </h2>
+        </div>
+        <div class="footer__center_subtitle">
+          <p class="footer__subtitle">
+            An online store where you will find fresh, natural and delicious
+            products for a healthy life and unforgettable gastronomic
+            adventures.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer__right">
+        <h4 class="footer__subscribe_title">
+          Subscribe and learn about new products!
+        </h4>
+        <form class="footer__subscribe_form" id="subscribe_form">
+          <input class="footer__subscribe_input" type="email" placeholder="Email" name="email" autocomplete="email">
+        </form>
+
+        <button class="footer__subscribe_btn" data-open-thanks="">Send</button>
+      </div>
+    </div>
+    <div class="footer__buttom_text">
+      <p class="footer__buttom_left">Food Boutique. All rights reserved.</p>
+      <div class="footer__buttom_part_right">
+        <p class="footer__buttom_right">Privacy Policy / Terms of Service</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://kit.fontawesome.com/e6449d2955.js" crossorigin="anonymous"></script>
+    <script type="module" src="/food-boutique.6528c13b.js"></script>
+    <script type="module" src="/food-boutique.fd776007.js"></script>
+    <script type="module" src="/food-boutique.be35dabe.js"></script>
+    <script type="module" src="/food-boutique.2b09844d.js"></script>
+    <script type="module" src="/food-boutique.7bd8a32a.js"></script>
+    <script type="module" src="/food-boutique.e58f9df1.js"></script>
+    <script type="module" src="/food-boutique.d2fc5bd9.js"></script>
+
+  
+
+</body></html>
